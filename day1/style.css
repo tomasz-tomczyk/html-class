@@ -1,0 +1,30 @@
+p {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1 {
+  background: purple;
+}
+
+.text-red {
+  color: red;
+}
+
+#page-title {
+  border: 1px solid;
+}
+
+.creepy-owl {
+  width: 200px;
+}
+
+div p {
+  width: 272px;
+  float: left;
+  background: #000000;
+}
