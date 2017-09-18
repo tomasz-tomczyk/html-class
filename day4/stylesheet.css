@@ -67,6 +67,9 @@ select {
   border-radius: 5px;
 }
 
+a.box {
+  transition: color 1s,border-color 1s;
+}
 
 a.box:link, a.box:visited {
   color: blue;
