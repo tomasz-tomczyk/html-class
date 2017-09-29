@@ -1,0 +1,230 @@
+body {
+  font-family: Arial;
+  margin: 0;
+  color: #23244c;
+}
+
+/*
+Comment
+*/
+
+.header-bar {
+  padding: 20px 0;
+}
+
+.logo {
+  width: 140px;
+}
+
+.container {
+  width: 1000px;
+  margin: auto;
+}
+
+.blue-container {
+  background: #9dd8f7;
+}
+
+.center-text {
+  text-align: center;
+}
+
+.hero-container {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding: 20px 0;
+}
+
+.hero-copy {
+  font-size: 28px;
+}
+
+h1 {
+  font-size: 34px;
+}
+
+.box {
+  background: #fff;
+  width: 200px;
+  height: 160px;
+  display: inline-block;
+  margin-right: 36px;
+  margin-bottom: 30px;
+  padding-top: 20px;
+  border-top: 8px solid #23244c;
+  font-size: 20px;
+}
+
+select {
+  width: 400px;
+  background: white;
+  background: #fff;
+  background: #ffffff;
+  border: 1px solid #23244c;
+  padding: 6px 0;
+  height: 40px;
+  font-size: 18px;
+  border-radius: 5px;
+}
+
+a.box {
+  transition: color 1s,border-color 1s;
+}
+
+a.box:link, a.box:visited {
+  color: blue;
+  text-decoration: none;
+}
+
+a.box:hover {
+  color: red;
+  border-color: red;
+  /*border-top: 8px solid red;*/
+}
+
+a.box:active {
+  color: green;
+}
+
+.navy-container {
+  background: #1c1f4e;
+  color: #fff;
+}
+
+.counter {
+  background: green;
+  color: white;
+  border: 3px solid #fff;
+  border-radius: 50%;
+  width: 25px;
+  display: inline-block;
+  text-align: center;
+  margin: 20px;
+  height: 25px;
+  line-height: 25px;
+}
+
+.cta-button {
+  background: green;
+  font-size: 22px;
+  color: #fff;
+  text-decoration: none;
+  height: auto;
+  width: auto;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border-radius: 5px;
+}
+
+.eligibility-counter-container {
+  display: inline-block;
+  width: 235px;
+  vertical-align: middle;
+}
+
+.eligibility-container div p {
+  display: inline-block;
+  width: 140px;
+  font-size: 14px;
+  vertical-align: middle;
+}
+
+.eligibility-container a {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.eligibility-copy-container {
+  width: 715px;
+  display: inline-block;
+}
+
+.eligibility-title {
+  font-size: 28px;
+  display: block;
+  padding-top: 20px;
+}
+
+
+
+/* Main page contents */
+
+.grey-container {
+  background: #f4f5f6;
+  height: 800px;
+}
+
+.copy-container {
+  width: 780px;
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 20px;
+}
+
+.card {
+  background: white;
+  background: #fff;
+  background: #ffffff;
+
+  width: 1000px;
+  margin: 0 auto;
+
+  border: 1px solid #d5d4d4;
+  border-radius: 5px;
+}
+
+.card a {
+  color: #3c5aa6;
+}
+
+.card-heading {
+  border-bottom: 1px solid #d5d4d4;
+  padding-left: 20px;
+  border-left: 3px solid #ee8406;
+}
+
+.card-heading h3 {
+  margin-top: 0;
+  padding-top: 20px;
+  font-weight: normal;
+}
+
+.card-contents-primary {
+  border-right: 1px solid #d5d4d4;
+  display: inline-block;
+  width: 50%;
+  text-align: center;
+  padding-top: 20px;
+}
+
+a.card-cta {
+  padding: 10px 50px;
+  background: red;
+  border-radius: 5px;
+  color: #fff;
+  text-decoration: none;
+}
+
+.card-contents-secondary {
+  display: inline-block;
+  width: 49%;
+}
+
+.card-footer {
+  border-top: 1px solid #d5d4d4;
+  text-align: right;
+  padding: 20px;
+  font-weight: bold;
+}
+
+table {
+  width: 100%;
+}
+
+td {
+  width: 33%;
+  text-align: center;
+  background: #e4f4fc;
+}
