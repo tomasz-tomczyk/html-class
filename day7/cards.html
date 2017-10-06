@@ -141,7 +141,7 @@ This is a comment
       </div>
     </div>
 
-    <div class="card">
+    <div id="card-2" class="card">
       <div class="card-heading card-heading-purchase">
         <h3>Best 0% balance transfer card</h3>
       </div>
@@ -260,19 +260,29 @@ This is a comment
     <div class="tab-nav-container-inner">
       <!-- fixed width -->
       <ul>
-        <li class="tab-active"><a href="">Tab 1</a></li>
-        <li><a href="">Tab 2</a></li>
-        <li><a href="">Tab 3</a></li>
-        <li><a href="">Tab 4</a></li>
+        <li class="tab tab-active"><a href="#tab-content-1">Tab 1</a></li>
+        <li class="tab"><a href="#tab-content-2">Tab 2</a></li>
+        <li class="tab"><a href="#tab-content-3">Tab 3</a></li>
+        <li class="tab"><a href="#tab-content-4">Tab 4</a></li>
       </ul>
     </div>
   </div>
 
   <div class="tab-content-container">
-    <div class="tab-content tab-1 tab-content-active">Copy 1</div>
-    <div class="tab-content tab-2">Copy 2</div>
-    <div class="tab-content tab-3">Copy 3</div>
-    <div class="tab-content tab-4">Copy 4</div>
+    <div id="tab-content-1" class="tab-content tab-content-active">Copy 1</div>
+    <div id="tab-content-2" class="tab-content">Copy 2</div>
+    <div id="tab-content-3" class="tab-content">Copy 3</div>
+    <div id="tab-content-4" class="tab-content">Copy 4</div>
   </div>
+
+
+  <script>
+    function myFunction3(mouseEvent) {
+      document.querySelectorAll('.tab')[0].classList.remove('tab-active');
+      document.querySelectorAll('.tab')[1].classList.add('tab-active');
+    } // This function will add tab-active class to tab-2 and remove tab-active class form tab-1
+
+    document.querySelectorAll('.tab')[1].addEventListener('click', myFunction3);
+  </script>
 
 </body>
