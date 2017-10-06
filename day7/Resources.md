@@ -55,10 +55,7 @@ document.querySelectorAll('.tab-content')[1].classList.add('tab-content-active')
 - [List element classes (classList)](https://developer.mozilla.org/en-US/docs/Web/API/Element/classList)
 - [Listen to tab click event (addEventListener)](https://developer.mozilla.org/en-US/docs/Web/API/EventTarget/addEventListener)
 
-
-
-## Other tools & utilities
-
+## Other tools & utilities
 - [Image placeholder](http://via.placeholder.com/100x100)
 - [Screenshot](https://s3-eu-west-1.amazonaws.com/money-data/homepage.png)
 - [MDN HTML reference](https://developer.mozilla.org/en-US/docs/Web/HTML/Element)
